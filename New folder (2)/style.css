@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    animation: aa 1s linear infinite;
+}
+
+.main{
+    height: 30px;
+    width: 30px;
+    border: 5px solid violet;
+    border-left: 5px solid transparent;
+    border-radius: 50%;
+    /* position: absolute; */
+    top: 80px;
+    left: 80px;
+    animation: aaa 1s linear infinite;
+}
+@keyframes aaa{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
